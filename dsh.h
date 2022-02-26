@@ -19,4 +19,6 @@
 void messageOfDay();
 void findPath(char path[]);
 int shell(char* cmdline);
+int builtInCommand(char* command);
+void addUserInput(char* command);
 #endif
